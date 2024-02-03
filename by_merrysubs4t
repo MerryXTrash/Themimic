@@ -67,7 +67,7 @@ local Tab = Window.NewTab("Setting")
 
 local Section = Tab.NewSection("Hide GUI Press M")
 local Section = Tab.NewSection("Fullbrigth")
-local EnabledToggle = Section.NewToggle("ON/OFF",function(bool)
+local DisabledToggle = Section.NewToggle("ON/OFF",function(bool)
 if not _G.FullBrightExecuted then
 
 	_G.FullBrightEnabled = false
@@ -174,4 +174,4 @@ end
 
 _G.FullBrightExecuted = true
 _G.FullBrightEnabled = not _G.FullBrightEnabled
-end,true)
+end,false)
