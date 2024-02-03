@@ -8,7 +8,7 @@ local Section = Tab.NewSection("Chapter 1")
 local Button = Section.NewButton("Part 1",function()
 game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3507.028564453125, 43.13663864135742, -1541.9735107421875)
 end)
-local Button = Section.NewButton("Button Text",function()
+local Button = Section.NewButton("Part 2",function()
 game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1272.7239990234375, 200.04153442382812, -2537.25)
 end)
 
