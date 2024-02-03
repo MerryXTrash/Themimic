@@ -70,7 +70,7 @@ local Section = Tab.NewSection("Fullbrigth")
 local DisabledToggle = Section.NewToggle("ON/OFF",function(bool)
 if not _G.FullBrightExecuted then
 
-	_G.FullBrightEnabled = false
+	_G.FullBrightEnabled = true
 
 	_G.NormalLightingSettings = {
 		Brightness = game:GetService("Lighting").Brightness,
