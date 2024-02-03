@@ -53,10 +53,10 @@ local Tab = Window.NewTab("Gamemode")
 
 local Section = Tab.NewSection("The witch Trial")
 local Button = Section.NewButton("Part 1",function()
--------
+game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2528.98681640625, 8.164044380187988, -1184.1917724609375)
 end)
 local Button = Section.NewButton("Part 2",function()
-game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-438.7724609375, 21.25349998474121, -1456.4410400390625)
+game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-444.71759033203125, 20.493558883666992, -1453.7325439453125)
 end)
 local Button = Section.NewButton("Part 3",function()
 game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2690.99169921875, 9.297460556030273, 649.3221435546875)
