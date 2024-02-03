@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
-Window = Library.Main("The Mimic","M")
+Window = Library.Main("The Mimic By MerrySubs4t","M")
 
 local Tab = Window.NewTab("Book1ch1")
 
