@@ -1,11 +1,21 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
-Window = Library.Main("The Mimic By MerrySubs4t","M")
+Window = Library.Main("The Mimic","M")
 
 local Tab = Window.NewTab("Main")
 
 
 local Section = Tab.NewSection("เกมาก")
-local Section = Tab.NewSection("Discord #Merrysubs4t")
+local Section = Tab.NewSection("เกแท้")
+local Section = Tab.NewSection("เกโหด")
+local Section = Tab.NewSection("เกจัด")
+local Section = Tab.NewSection("เกจริง")
+local Section = Tab.NewSection("เกกาก")
+local Section = Tab.NewSection("โครตเก")
+local Section = Tab.NewSection("เกระดับโหด")
+local Section = Tab.NewSection("เกระดับโลก")
+local Section = Tab.NewSection("เกระดับตำนาน")
+local Section = Tab.NewSection("เกระดับพระเจ้า")
+local Section = Tab.NewSection("By Discord #Merrysubs4t")
 
 
 local Tab = Window.NewTab("Book1ch1")
